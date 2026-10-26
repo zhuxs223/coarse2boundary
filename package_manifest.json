@@ -1,0 +1,1140 @@
+{
+  "title": "Recovering internal parcel boundaries from coarse agricultural annotations",
+  "license": "MIT",
+  "release_date": "2026-10-26",
+  "source_only": true,
+  "data_included": false,
+  "weights_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 145,
+      "sha256": "af1153b4596d0f3ef084c32736b58b5ba3512cba966c5933ae390382cc15a56c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 232,
+      "sha256": "a1b33eca50d38e597f9b08a8fe0ade8fbf46356de6a412943d0809eb080009c6"
+    },
+    {
+      "path": "config.json",
+      "bytes": 258,
+      "sha256": "285e4383b5256accb5e1e5eb2501bfc86689c807b1640bb7886251dbf1328d9e"
+    },
+    {
+      "path": "docs/data.md",
+      "bytes": 2666,
+      "sha256": "db26d5ffe9b7d1f6c9960e2f1b2044e0134f82ce5a8692b8950bd315d821dd22"
+    },
+    {
+      "path": "docs/experiments.md",
+      "bytes": 4441,
+      "sha256": "182ad891fb2fb3cc5b81fc3eb15dd72c93f89cd0738f47024c2716d9393079fd"
+    },
+    {
+      "path": "docs/portability.md",
+      "bytes": 1740,
+      "sha256": "960516534fd1bea05177abef7ea2d0064e9ce901988683f9870c05e7d3794ce6"
+    },
+    {
+      "path": "docs/source_provenance.json",
+      "bytes": 75458,
+      "sha256": "286c9f6933b1bf1f6a3bd206ccd254e7358aa6008abc17dd3144f51221fec574"
+    },
+    {
+      "path": "docs/upload_zh.md",
+      "bytes": 1399,
+      "sha256": "753f2b4bd6d25cdd6e5f4eec67a6f203d9b1950b0af081e42d87712d08e05ef6"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 1014,
+      "sha256": "f9dc9de40894438aa20375e767a1da9ea54f19d81cf2d009a64e602e6895c898"
+    },
+    {
+      "path": "downstream/config.json",
+      "bytes": 687,
+      "sha256": "ae2de89e5b43423737f8b3a1e57c882b8f2a987564c10885993b122dfd41a16b"
+    },
+    {
+      "path": "downstream/run_all.py",
+      "bytes": 30354,
+      "sha256": "f649882fd7669659eec8cfc7a6a47bff7809aaef8192293dad40d305d73cec8d"
+    },
+    {
+      "path": "downstream/smoke_test.py",
+      "bytes": 9027,
+      "sha256": "44d27ab592f194f123d1d7022584ff66fa696a240ff5b0027bfb69ac112f7c18"
+    },
+    {
+      "path": "experiments/initialize_small/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/initialize_small/model_h8.py",
+      "bytes": 3278,
+      "sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+    },
+    {
+      "path": "experiments/initialize_small/model_reference.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/initialize_small/run_h8.py",
+      "bytes": 16607,
+      "sha256": "b5fff1b8f11effe963d2cf0608e2830816666dbca6f8ee29189f08715e6b5503"
+    },
+    {
+      "path": "experiments/initialize_small/run_pair.py",
+      "bytes": 16332,
+      "sha256": "f0794fd515b0394eb3b3059a96995b0295d94f637287671b6b1298a31827c08f"
+    },
+    {
+      "path": "experiments/nnpu/cfg_standard.py",
+      "bytes": 1718,
+      "sha256": "6b1224dab1ec7d9a7252f2597f960fbf44740db654a1652e7a2d27c80ca88552"
+    },
+    {
+      "path": "experiments/nnpu/data.py",
+      "bytes": 4691,
+      "sha256": "b3f121e549d8abd70d0360959c3b8e778bd09b06aad0758eecc2908c99a7732a"
+    },
+    {
+      "path": "experiments/nnpu/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/nnpu/model_student.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/nnpu/prepare_priors.py",
+      "bytes": 4238,
+      "sha256": "9321663cd1f4ed5ec5f05f485168c80d0fd030e844d19e311540de387fd4795f"
+    },
+    {
+      "path": "experiments/nnpu/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/nnpu/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/nnpu/run.py",
+      "bytes": 15443,
+      "sha256": "2ada1b58fdc7cf78aa756a9dbd0aeab4bcd729ca2d0e0b2d1c0ca930246750a9"
+    },
+    {
+      "path": "experiments/nnpu/run_windows.py",
+      "bytes": 2347,
+      "sha256": "7b40d714bd57cd1d92225b8307d37b9cb72b235206c0709a89c701654cebb05a"
+    },
+    {
+      "path": "experiments/nnpu/runtime_setup.py",
+      "bytes": 1537,
+      "sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a"
+    },
+    {
+      "path": "experiments/nnpu/sampling.py",
+      "bytes": 1382,
+      "sha256": "8018d5a6a592ea4ea4cbe88e6cba6342280405c002f43537aa0fe6665ae3156e"
+    },
+    {
+      "path": "experiments/nnpu/supervision.py",
+      "bytes": 2002,
+      "sha256": "d3d24d0153101fe31c9674357143d1edb725f933a9866157bf3ea1799c17cdc4"
+    },
+    {
+      "path": "experiments/nnpu/utils.py",
+      "bytes": 2294,
+      "sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723"
+    },
+    {
+      "path": "experiments/probability_lut/abc_gate.py",
+      "bytes": 9645,
+      "sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+    },
+    {
+      "path": "experiments/probability_lut/acceleration/fast_data.py",
+      "bytes": 3283,
+      "sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+    },
+    {
+      "path": "experiments/probability_lut/acceleration/run_fast.py",
+      "bytes": 5835,
+      "sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+    },
+    {
+      "path": "experiments/probability_lut/anchor_gate.py",
+      "bytes": 5166,
+      "sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+    },
+    {
+      "path": "experiments/probability_lut/cfg_standard.py",
+      "bytes": 3555,
+      "sha256": "e15925c72bd769482d78b5c9f1f00b92ab27af79621b55ec756519a436af0802"
+    },
+    {
+      "path": "experiments/probability_lut/cloud_data.py",
+      "bytes": 2194,
+      "sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+    },
+    {
+      "path": "experiments/probability_lut/cloud_geometry.py",
+      "bytes": 2400,
+      "sha256": "ee8324da1ec2febd8dda3fde0f7434359617bc7ba2e61541f894796105f8275a"
+    },
+    {
+      "path": "experiments/probability_lut/cloud_supervision.py",
+      "bytes": 10745,
+      "sha256": "7201661b68519cafbc85e961d74f136e8bf91911f963203033309f6318f31d02"
+    },
+    {
+      "path": "experiments/probability_lut/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/probability_lut/geometry.py",
+      "bytes": 4753,
+      "sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+    },
+    {
+      "path": "experiments/probability_lut/gray_region_guard.py",
+      "bytes": 3426,
+      "sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+    },
+    {
+      "path": "experiments/probability_lut/initial_anchor.py",
+      "bytes": 5479,
+      "sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+    },
+    {
+      "path": "experiments/probability_lut/model_h8.py",
+      "bytes": 3278,
+      "sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+    },
+    {
+      "path": "experiments/probability_lut/model_reference.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/probability_lut/model_student.py",
+      "bytes": 1307,
+      "sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+    },
+    {
+      "path": "experiments/probability_lut/model_student_unet.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/probability_lut/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/probability_lut/reference/model.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/probability_lut/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/probability_lut/repeat_confidence.py",
+      "bytes": 3330,
+      "sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+    },
+    {
+      "path": "experiments/probability_lut/run_all.py",
+      "bytes": 17781,
+      "sha256": "293198f4f0f417c72630ee62dbaac7b2dc9bcf4c354c523be6cd3ccd2d547c0b"
+    },
+    {
+      "path": "experiments/probability_lut/run_pair.py",
+      "bytes": 20135,
+      "sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+    },
+    {
+      "path": "experiments/probability_lut/run_windows.py",
+      "bytes": 2593,
+      "sha256": "f8b7a17c4af409775c042bc400c62eefecef5ff2251bc38ab32a96351be083ec"
+    },
+    {
+      "path": "experiments/probability_lut/runtime_setup.py",
+      "bytes": 1477,
+      "sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+    },
+    {
+      "path": "experiments/probability_lut/state_store.py",
+      "bytes": 6739,
+      "sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+    },
+    {
+      "path": "experiments/probability_lut/steger_safe.py",
+      "bytes": 1640,
+      "sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+    },
+    {
+      "path": "experiments/probability_lut/storage_budget.py",
+      "bytes": 2205,
+      "sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+    },
+    {
+      "path": "experiments/probability_lut/supervision_hold.py",
+      "bytes": 5745,
+      "sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+    },
+    {
+      "path": "experiments/probability_lut/target_rules.py",
+      "bytes": 1850,
+      "sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+    },
+    {
+      "path": "experiments/probability_lut/teacher_protocol.py",
+      "bytes": 1998,
+      "sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+    },
+    {
+      "path": "experiments/probability_lut/weighted_loss.py",
+      "bytes": 2152,
+      "sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+    },
+    {
+      "path": "experiments/probability_nolut/abc_gate.py",
+      "bytes": 9645,
+      "sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+    },
+    {
+      "path": "experiments/probability_nolut/acceleration/fast_data.py",
+      "bytes": 3283,
+      "sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+    },
+    {
+      "path": "experiments/probability_nolut/acceleration/run_fast.py",
+      "bytes": 5835,
+      "sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+    },
+    {
+      "path": "experiments/probability_nolut/anchor_gate.py",
+      "bytes": 5166,
+      "sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+    },
+    {
+      "path": "experiments/probability_nolut/cfg_standard.py",
+      "bytes": 3555,
+      "sha256": "65ac52cc31e3068022f3dbf4ce7481a510e8b17567f13969250afd68b7a3bab0"
+    },
+    {
+      "path": "experiments/probability_nolut/cloud_data.py",
+      "bytes": 2194,
+      "sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+    },
+    {
+      "path": "experiments/probability_nolut/cloud_geometry.py",
+      "bytes": 2400,
+      "sha256": "ee8324da1ec2febd8dda3fde0f7434359617bc7ba2e61541f894796105f8275a"
+    },
+    {
+      "path": "experiments/probability_nolut/cloud_supervision.py",
+      "bytes": 10745,
+      "sha256": "21f70af3ce397ec72cb588c69649e74208b8fe48bbba1a5003be4407d08c60b8"
+    },
+    {
+      "path": "experiments/probability_nolut/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/probability_nolut/geometry.py",
+      "bytes": 4753,
+      "sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+    },
+    {
+      "path": "experiments/probability_nolut/gray_region_guard.py",
+      "bytes": 3426,
+      "sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+    },
+    {
+      "path": "experiments/probability_nolut/initial_anchor.py",
+      "bytes": 5479,
+      "sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+    },
+    {
+      "path": "experiments/probability_nolut/model_h8.py",
+      "bytes": 3278,
+      "sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+    },
+    {
+      "path": "experiments/probability_nolut/model_reference.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/probability_nolut/model_student.py",
+      "bytes": 1307,
+      "sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+    },
+    {
+      "path": "experiments/probability_nolut/model_student_unet.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/probability_nolut/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/probability_nolut/reference/model.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/probability_nolut/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/probability_nolut/repeat_confidence.py",
+      "bytes": 3330,
+      "sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+    },
+    {
+      "path": "experiments/probability_nolut/run_all.py",
+      "bytes": 17781,
+      "sha256": "293198f4f0f417c72630ee62dbaac7b2dc9bcf4c354c523be6cd3ccd2d547c0b"
+    },
+    {
+      "path": "experiments/probability_nolut/run_pair.py",
+      "bytes": 20135,
+      "sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+    },
+    {
+      "path": "experiments/probability_nolut/run_windows.py",
+      "bytes": 2604,
+      "sha256": "e55fc084235196e2022d3a0498576d047e0d08aeec18509aa81d22cce5b7adce"
+    },
+    {
+      "path": "experiments/probability_nolut/runtime_setup.py",
+      "bytes": 1477,
+      "sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+    },
+    {
+      "path": "experiments/probability_nolut/state_store.py",
+      "bytes": 6739,
+      "sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+    },
+    {
+      "path": "experiments/probability_nolut/steger_safe.py",
+      "bytes": 1640,
+      "sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+    },
+    {
+      "path": "experiments/probability_nolut/storage_budget.py",
+      "bytes": 2205,
+      "sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+    },
+    {
+      "path": "experiments/probability_nolut/supervision_hold.py",
+      "bytes": 5745,
+      "sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+    },
+    {
+      "path": "experiments/probability_nolut/target_rules.py",
+      "bytes": 1850,
+      "sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+    },
+    {
+      "path": "experiments/probability_nolut/teacher_protocol.py",
+      "bytes": 1998,
+      "sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+    },
+    {
+      "path": "experiments/probability_nolut/weighted_loss.py",
+      "bytes": 2152,
+      "sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+    },
+    {
+      "path": "experiments/recovery/abc_gate.py",
+      "bytes": 9645,
+      "sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+    },
+    {
+      "path": "experiments/recovery/acceleration/fast_data.py",
+      "bytes": 3283,
+      "sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+    },
+    {
+      "path": "experiments/recovery/acceleration/run_fast.py",
+      "bytes": 5835,
+      "sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+    },
+    {
+      "path": "experiments/recovery/anchor_gate.py",
+      "bytes": 5166,
+      "sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+    },
+    {
+      "path": "experiments/recovery/cfg_standard.py",
+      "bytes": 3172,
+      "sha256": "4c9c927d6377a72e6b4dbb612834b2e9ecc12f4a7ce735224cb2f4db875b7a8f"
+    },
+    {
+      "path": "experiments/recovery/cloud_data.py",
+      "bytes": 2194,
+      "sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+    },
+    {
+      "path": "experiments/recovery/cloud_geometry.py",
+      "bytes": 2091,
+      "sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7"
+    },
+    {
+      "path": "experiments/recovery/cloud_supervision.py",
+      "bytes": 8462,
+      "sha256": "06b3ab44a0a0aeb13d2be5c7de981db4b6875249d9f10589cb412d403d5bb561"
+    },
+    {
+      "path": "experiments/recovery/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/recovery/geometry.py",
+      "bytes": 4753,
+      "sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+    },
+    {
+      "path": "experiments/recovery/gray_region_guard.py",
+      "bytes": 3426,
+      "sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+    },
+    {
+      "path": "experiments/recovery/initial_anchor.py",
+      "bytes": 5479,
+      "sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+    },
+    {
+      "path": "experiments/recovery/model_h8.py",
+      "bytes": 3278,
+      "sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+    },
+    {
+      "path": "experiments/recovery/model_reference.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/recovery/model_student.py",
+      "bytes": 1307,
+      "sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+    },
+    {
+      "path": "experiments/recovery/model_student_unet.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/recovery/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/recovery/reference/model.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/recovery/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/recovery/repeat_confidence.py",
+      "bytes": 3330,
+      "sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+    },
+    {
+      "path": "experiments/recovery/run_all.py",
+      "bytes": 17509,
+      "sha256": "9e2b8c6100ddeff9906d51776d6cbacefd4eba0ba03a9110d3006782892e7b0a"
+    },
+    {
+      "path": "experiments/recovery/run_pair.py",
+      "bytes": 20135,
+      "sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+    },
+    {
+      "path": "experiments/recovery/run_windows.py",
+      "bytes": 2446,
+      "sha256": "02743fc865fce6946cca0c052cfa17863b556377869dcdffda186713e09973bd"
+    },
+    {
+      "path": "experiments/recovery/runtime_setup.py",
+      "bytes": 1477,
+      "sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+    },
+    {
+      "path": "experiments/recovery/state_store.py",
+      "bytes": 6739,
+      "sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+    },
+    {
+      "path": "experiments/recovery/steger_safe.py",
+      "bytes": 1640,
+      "sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+    },
+    {
+      "path": "experiments/recovery/storage_budget.py",
+      "bytes": 2205,
+      "sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+    },
+    {
+      "path": "experiments/recovery/supervision_hold.py",
+      "bytes": 5745,
+      "sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+    },
+    {
+      "path": "experiments/recovery/target_rules.py",
+      "bytes": 1850,
+      "sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+    },
+    {
+      "path": "experiments/recovery/teacher_protocol.py",
+      "bytes": 1998,
+      "sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+    },
+    {
+      "path": "experiments/recovery/weighted_loss.py",
+      "bytes": 2152,
+      "sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+    },
+    {
+      "path": "experiments/reference_student/abc_gate.py",
+      "bytes": 9645,
+      "sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+    },
+    {
+      "path": "experiments/reference_student/ablation_source_provenance.json",
+      "bytes": 3218,
+      "sha256": "73b00d9b38126a63670915a98966b479c98f8fe6a1fa35abe60c41d0410ff39d"
+    },
+    {
+      "path": "experiments/reference_student/acceleration/fast_data.py",
+      "bytes": 3283,
+      "sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+    },
+    {
+      "path": "experiments/reference_student/acceleration/run_fast.py",
+      "bytes": 5835,
+      "sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+    },
+    {
+      "path": "experiments/reference_student/anchor_gate.py",
+      "bytes": 5166,
+      "sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+    },
+    {
+      "path": "experiments/reference_student/cfg_standard.py",
+      "bytes": 3687,
+      "sha256": "e12aae9177b8984c02bbf92d458959841eb79f14387c2fd9d88f934522aefce2"
+    },
+    {
+      "path": "experiments/reference_student/cloud_data.py",
+      "bytes": 2194,
+      "sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+    },
+    {
+      "path": "experiments/reference_student/cloud_geometry.py",
+      "bytes": 2091,
+      "sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7"
+    },
+    {
+      "path": "experiments/reference_student/cloud_supervision.py",
+      "bytes": 9916,
+      "sha256": "395b2f6dfbb510b1f1b41fa6bbe55c7cc3e781d1eeb2ac41d26df7493af2d785"
+    },
+    {
+      "path": "experiments/reference_student/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/reference_student/geometry.py",
+      "bytes": 4753,
+      "sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+    },
+    {
+      "path": "experiments/reference_student/gray_region_guard.py",
+      "bytes": 3426,
+      "sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+    },
+    {
+      "path": "experiments/reference_student/initial_anchor.py",
+      "bytes": 5479,
+      "sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+    },
+    {
+      "path": "experiments/reference_student/model_h8.py",
+      "bytes": 3278,
+      "sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+    },
+    {
+      "path": "experiments/reference_student/model_reference.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/reference_student/model_student.py",
+      "bytes": 1307,
+      "sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+    },
+    {
+      "path": "experiments/reference_student/model_student_unet.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/reference_student/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/reference_student/reference/model.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/reference_student/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/reference_student/reference_bootstrap.py",
+      "bytes": 13082,
+      "sha256": "9d2c21abdaff5e27ef753a6efb42a7cba9ca1554829e0748ac3b48ba411bbb30"
+    },
+    {
+      "path": "experiments/reference_student/repeat_confidence.py",
+      "bytes": 3330,
+      "sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+    },
+    {
+      "path": "experiments/reference_student/run_all.py",
+      "bytes": 18244,
+      "sha256": "18021cb2ee6a59009ec0a41173bd0928949993909434901bb04ee97bea5060a4"
+    },
+    {
+      "path": "experiments/reference_student/run_pair.py",
+      "bytes": 20135,
+      "sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+    },
+    {
+      "path": "experiments/reference_student/run_windows.py",
+      "bytes": 3154,
+      "sha256": "c48b765536c0f8475071c5d3ec58a7b93b4bafe20f1e2ad90b78f4a02bfc7a47"
+    },
+    {
+      "path": "experiments/reference_student/runtime_setup.py",
+      "bytes": 1477,
+      "sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+    },
+    {
+      "path": "experiments/reference_student/state_store.py",
+      "bytes": 6739,
+      "sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+    },
+    {
+      "path": "experiments/reference_student/steger_safe.py",
+      "bytes": 1640,
+      "sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+    },
+    {
+      "path": "experiments/reference_student/storage_budget.py",
+      "bytes": 2205,
+      "sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+    },
+    {
+      "path": "experiments/reference_student/supervision_hold.py",
+      "bytes": 5745,
+      "sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+    },
+    {
+      "path": "experiments/reference_student/target_rules.py",
+      "bytes": 1850,
+      "sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+    },
+    {
+      "path": "experiments/reference_student/teacher_protocol.py",
+      "bytes": 1998,
+      "sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+    },
+    {
+      "path": "experiments/reference_student/weighted_loss.py",
+      "bytes": 2152,
+      "sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+    },
+    {
+      "path": "experiments/s2l/cfg_standard.py",
+      "bytes": 1639,
+      "sha256": "576617888de725b33978b1a93b00ad73518dae57a2757b5285e77b06e345b208"
+    },
+    {
+      "path": "experiments/s2l/data.py",
+      "bytes": 4436,
+      "sha256": "08588c7ad01f014fed0b0fbb71faa0f338a3a678f6905d90fdf3ad3fa78a7526"
+    },
+    {
+      "path": "experiments/s2l/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/s2l/model_student.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/s2l/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/s2l/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/s2l/run.py",
+      "bytes": 22215,
+      "sha256": "dafa3d7e0b4d39b1874a17e4d2b6f18da6c277bec7bcf640f0addb8fdd336e43"
+    },
+    {
+      "path": "experiments/s2l/run_windows.py",
+      "bytes": 2347,
+      "sha256": "7b40d714bd57cd1d92225b8307d37b9cb72b235206c0709a89c701654cebb05a"
+    },
+    {
+      "path": "experiments/s2l/runtime_setup.py",
+      "bytes": 1537,
+      "sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a"
+    },
+    {
+      "path": "experiments/s2l/supervision.py",
+      "bytes": 1161,
+      "sha256": "b9960542f92a2e53fe4f29541c53c9341839a1a5cdf81cdb83e7a37fc3cdef58"
+    },
+    {
+      "path": "experiments/s2l/utils.py",
+      "bytes": 2294,
+      "sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723"
+    },
+    {
+      "path": "experiments/s2l_small/cfg_standard.py",
+      "bytes": 1958,
+      "sha256": "ea3c00c5d2b866344d751ae9803711033006cafd02ea47e51168f77b1b6c8357"
+    },
+    {
+      "path": "experiments/s2l_small/data.py",
+      "bytes": 4436,
+      "sha256": "08588c7ad01f014fed0b0fbb71faa0f338a3a678f6905d90fdf3ad3fa78a7526"
+    },
+    {
+      "path": "experiments/s2l_small/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/s2l_small/model_student.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/s2l_small/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/s2l_small/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/s2l_small/run.py",
+      "bytes": 26805,
+      "sha256": "e158e408749e3d1e56837d978afca75c7623df1b80f26c21a3f47d922dc4ac3e"
+    },
+    {
+      "path": "experiments/s2l_small/run_windows.py",
+      "bytes": 3159,
+      "sha256": "3bd5b5edd78025412243b2e2389162efc55b2ba98e171e02ff768119b9a78a4d"
+    },
+    {
+      "path": "experiments/s2l_small/runtime_setup.py",
+      "bytes": 1537,
+      "sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a"
+    },
+    {
+      "path": "experiments/s2l_small/small_prior.py",
+      "bytes": 3198,
+      "sha256": "3fc724a9ae43d2271a479d06fc29eea61276b15bbb35e2c69e251093127c6f6d"
+    },
+    {
+      "path": "experiments/s2l_small/supervision.py",
+      "bytes": 1161,
+      "sha256": "b9960542f92a2e53fe4f29541c53c9341839a1a5cdf81cdb83e7a37fc3cdef58"
+    },
+    {
+      "path": "experiments/s2l_small/teacher_model.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/s2l_small/utils.py",
+      "bytes": 2294,
+      "sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723"
+    },
+    {
+      "path": "experiments/structure_nolut/abc_gate.py",
+      "bytes": 9645,
+      "sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+    },
+    {
+      "path": "experiments/structure_nolut/acceleration/fast_data.py",
+      "bytes": 3283,
+      "sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+    },
+    {
+      "path": "experiments/structure_nolut/acceleration/run_fast.py",
+      "bytes": 5835,
+      "sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+    },
+    {
+      "path": "experiments/structure_nolut/anchor_gate.py",
+      "bytes": 5166,
+      "sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+    },
+    {
+      "path": "experiments/structure_nolut/cfg_standard.py",
+      "bytes": 3247,
+      "sha256": "7f5640de1f05b079bbb3db19738436d21c2cf979c0c6e8d09ca308b3b6a804f1"
+    },
+    {
+      "path": "experiments/structure_nolut/cloud_data.py",
+      "bytes": 2194,
+      "sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+    },
+    {
+      "path": "experiments/structure_nolut/cloud_geometry.py",
+      "bytes": 2091,
+      "sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7"
+    },
+    {
+      "path": "experiments/structure_nolut/cloud_supervision.py",
+      "bytes": 9916,
+      "sha256": "395b2f6dfbb510b1f1b41fa6bbe55c7cc3e781d1eeb2ac41d26df7493af2d785"
+    },
+    {
+      "path": "experiments/structure_nolut/dataset_protocol.py",
+      "bytes": 2462,
+      "sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+    },
+    {
+      "path": "experiments/structure_nolut/geometry.py",
+      "bytes": 4753,
+      "sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+    },
+    {
+      "path": "experiments/structure_nolut/gray_region_guard.py",
+      "bytes": 3426,
+      "sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+    },
+    {
+      "path": "experiments/structure_nolut/initial_anchor.py",
+      "bytes": 5479,
+      "sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+    },
+    {
+      "path": "experiments/structure_nolut/model_h8.py",
+      "bytes": 3278,
+      "sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+    },
+    {
+      "path": "experiments/structure_nolut/model_reference.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/structure_nolut/model_student.py",
+      "bytes": 1307,
+      "sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+    },
+    {
+      "path": "experiments/structure_nolut/model_student_unet.py",
+      "bytes": 2099,
+      "sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+    },
+    {
+      "path": "experiments/structure_nolut/reference/assess.py",
+      "bytes": 7593,
+      "sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+    },
+    {
+      "path": "experiments/structure_nolut/reference/model.py",
+      "bytes": 6359,
+      "sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+    },
+    {
+      "path": "experiments/structure_nolut/reference/model_unet.py",
+      "bytes": 3693,
+      "sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+    },
+    {
+      "path": "experiments/structure_nolut/repeat_confidence.py",
+      "bytes": 3330,
+      "sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+    },
+    {
+      "path": "experiments/structure_nolut/run_all.py",
+      "bytes": 17779,
+      "sha256": "d72ff9009f9c9502e61865dabd71eb5d51b1a7d7669ddf4e71f504667c2641aa"
+    },
+    {
+      "path": "experiments/structure_nolut/run_pair.py",
+      "bytes": 20135,
+      "sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+    },
+    {
+      "path": "experiments/structure_nolut/run_windows.py",
+      "bytes": 2802,
+      "sha256": "76317038793c94f6ef2c5a9c94d8d592ed7a6ebad2b55df1aec4e5eb8f9b410b"
+    },
+    {
+      "path": "experiments/structure_nolut/runtime_setup.py",
+      "bytes": 1477,
+      "sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+    },
+    {
+      "path": "experiments/structure_nolut/state_store.py",
+      "bytes": 6739,
+      "sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+    },
+    {
+      "path": "experiments/structure_nolut/steger_safe.py",
+      "bytes": 1640,
+      "sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+    },
+    {
+      "path": "experiments/structure_nolut/storage_budget.py",
+      "bytes": 2205,
+      "sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+    },
+    {
+      "path": "experiments/structure_nolut/supervision_hold.py",
+      "bytes": 5745,
+      "sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+    },
+    {
+      "path": "experiments/structure_nolut/target_rules.py",
+      "bytes": 1850,
+      "sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+    },
+    {
+      "path": "experiments/structure_nolut/teacher_protocol.py",
+      "bytes": 1998,
+      "sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+    },
+    {
+      "path": "experiments/structure_nolut/weighted_loss.py",
+      "bytes": 2152,
+      "sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1085,
+      "sha256": "b9474a74fabc23e70b99b384350fe6e0c85450208459c216d7b88539b15ea5da"
+    },
+    {
+      "path": "meta/paper_teacher_manifest.json",
+      "bytes": 214395,
+      "sha256": "9fc6dc4a4e8e41f145adf3a4afe73481aa15cc06110f7e136e59fce082b50083"
+    },
+    {
+      "path": "meta/paper_teacher_provenance.json",
+      "bytes": 893,
+      "sha256": "20d7bd78b3263e06a06828df78784f7703727fcd27515a8e8b3d60b7ce760a8a"
+    },
+    {
+      "path": "meta/splits_full5227.json",
+      "bytes": 648683,
+      "sha256": "bb27dcf3124b4c3e6afbf94109ec47a1644cd3f44fafe058a1c95b11619f56af"
+    },
+    {
+      "path": "meta/splits_v4_sd.json",
+      "bytes": 204400,
+      "sha256": "9ed4ada6444bb50730767d0fb20951fd8d325c92d49b06d29229b23caa315f00"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5305,
+      "sha256": "aa06d3bbb59f6f7dad52df0d73bdaedc93a0c18276352c3811713e301b1702d3"
+    },
+    {
+      "path": "release_utils.py",
+      "bytes": 1710,
+      "sha256": "f2972cd8533d8b930b5bd52c0d7141f80fe538d4f6e6f8210ca81a4ad24e62f4"
+    },
+    {
+      "path": "release_validation.json",
+      "bytes": 2344,
+      "sha256": "0bf941bb6593bece4f6eb4232258c8bb58bd0a12d0edc102b5716dbf9f4077c6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 238,
+      "sha256": "3f63056d8f4d383aa89d73d879f11857adb22e68f1fa876b1748c82c0d9088a7"
+    },
+    {
+      "path": "run_experiment.py",
+      "bytes": 5146,
+      "sha256": "28ff649d5fdf88ce1db902758adc576a0d5e03496e8308f712bb80bb0f893244"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1840,
+      "sha256": "e3f7fb702dfce81f963398f63106a0e6471b634fe085bd5beedafcd0d4dc0ed2"
+    },
+    {
+      "path": "tools/download_encoder.py",
+      "bytes": 1480,
+      "sha256": "32bacc7d95f8b987906f8c878e8ad9fe1fb42b4de17ea69bcc10a17209d8cabb"
+    },
+    {
+      "path": "tools/prepare_weak_labels.py",
+      "bytes": 2356,
+      "sha256": "51ffbd803ecf9bfaef920b7df6e6a75c0ac169185c831255d998318540ed432c"
+    },
+    {
+      "path": "tools/register_teacher.py",
+      "bytes": 2842,
+      "sha256": "2a8185d94d2a81a1003f3f68c318fb3a3e8a98155e7e16f116409df3b8f665d1"
+    },
+    {
+      "path": "tools/validate_release.py",
+      "bytes": 6078,
+      "sha256": "5544ce3bb6f155aa129e084c32f349149711b32d84fa8739d4417dd3d923d64f"
+    }
+  ]
+}

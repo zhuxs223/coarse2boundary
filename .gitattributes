@@ -1,0 +1,6 @@
+# Preserve bytes used by experiment source/manifest fingerprints.
+*.py -text
+*.json -text
+*.md text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf

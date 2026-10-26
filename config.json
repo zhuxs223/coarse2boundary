@@ -1,0 +1,7 @@
+{
+  "data_root": "data/GTPBD_enhenced_png",
+  "resnet_weights": "weights/resnet50-0676ba61.pth",
+  "small_teacher": "out/initialization/full_h2_on_ep10/ep10.pth",
+  "upstream_checkpoint": "out/unet_abc_fullteacher/round_020/final_r020.pth",
+  "workers": 6
+}

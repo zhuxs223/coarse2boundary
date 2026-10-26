@@ -1,0 +1,22 @@
+{
+  "data_root": "../data/GTPBD_enhenced_png",
+  "split_file": "../meta/splits_v4_sd.json",
+  "resnet_weights": "../weights/resnet50-0676ba61.pth",
+  "pseudo_checkpoint": "../out/unet_abc_fullteacher/round_020/final_r020.pth",
+  "pseudo_decoder_interpolation": "bilinear",
+  "output_root": "../out/downstream_parcel_3in1_ep100",
+  "epochs": 100,
+  "batch_size": 8,
+  "infer_batch_size": 8,
+  "workers": 6,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "amp": true,
+  "augmentation": "d4",
+  "prediction_threshold": 0.5,
+  "pseudo_boundary_threshold": 0.5,
+  "boundary_band_radius": 3,
+  "selection_domain": "parcel_boundary_band",
+  "preview_every": 10
+}

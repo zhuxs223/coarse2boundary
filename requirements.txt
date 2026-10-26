@@ -1,0 +1,9 @@
+# Install a matching torch/torchvision pair for your platform first.
+# The reported recovery/student architecture uses SMP 0.5.0.
+segmentation-models-pytorch==0.5.0
+numpy
+scipy
+scikit-image==0.26.0
+opencv-python
+Pillow
+matplotlib==3.10.9

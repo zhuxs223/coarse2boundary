@@ -1,0 +1,100 @@
+{
+  "python_sources": 206,
+  "syntax": true,
+  "cohort": true,
+  "downstream_membership": true,
+  "source_hashes": true,
+  "synthetic_coarse_supervision": true,
+  "launch_plans": {
+    "initialize": true,
+    "h8-initialization": true,
+    "recovery": true,
+    "s2l": true,
+    "nnpu": true,
+    "s2l-small": true,
+    "probability-lut": true,
+    "structure-no-lut": true,
+    "probability-no-lut": true,
+    "reference-student": true,
+    "downstream": true
+  },
+  "full_training_started": false,
+  "full_inference_started": false,
+  "release_date": "2026-10-26",
+  "models": [
+    {
+      "model": "SMALL.H4",
+      "parameters": 557505,
+      "shape": [
+        2,
+        1,
+        64,
+        64
+      ],
+      "weak_loss": 0.7284058332443237,
+      "encoder_gradient": true,
+      "optimizer_step": true,
+      "device": "cuda"
+    },
+    {
+      "model": "ResNet50.UNet",
+      "parameters": 32521105,
+      "shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "decoder": "bilinear",
+      "device": "cuda"
+    },
+    {
+      "model": "SMALL.H8",
+      "parameters": 2145857,
+      "shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "device": "cuda"
+    }
+  ],
+  "real_input_checks": {
+    "full_training_started": false,
+    "full_inference_started": false,
+    "real_coarse_supervision_tiles": 6,
+    "s2l_small_teacher_provenance": true,
+    "wrong_epoch_teacher_rejected": true,
+    "downstream_fixture_precheck": {
+      "sizes": {
+        "train_sd": 2,
+        "val_sd": 2,
+        "test_sd": 2,
+        "dropped_buffer": 0
+      },
+      "overlapping_pairs": {
+        "train_sd__val_sd": 0,
+        "train_sd__test_sd": 0,
+        "val_sd__test_sd": 0
+      },
+      "selection": "parcel_boundary_band",
+      "band_radius": 3,
+      "fixture_teacher": true
+    },
+    "coarse_training_fine_label_reads_blocked": true
+  },
+  "main_recovery_precheck": true,
+  "s2l_precheck": true,
+  "nnpu_precheck": true,
+  "environment": {
+    "python": "3.13.13",
+    "torch": "2.13.0+cu132",
+    "torchvision": "0.28.0+cu132",
+    "segmentation_models_pytorch": "0.5.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "scikit_image": "0.26.0",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU"
+  }
+}

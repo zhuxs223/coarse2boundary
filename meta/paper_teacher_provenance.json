@@ -1,0 +1,16 @@
+{
+  "architecture": "SMALL H/4 with H/2 skip",
+  "epoch": 10,
+  "train_tiles": 5227,
+  "teacher_file": "meta/small_full5227_h4_ep10.pth",
+  "teacher_sha256": "17e69a8143f6ac7e110b751bf409af2f17a878f815aaa51fe015f7b1309fe299",
+  "manifest_file": "meta/small_full5227_h4_manifest.json",
+  "manifest_sha256": "9fc6dc4a4e8e41f145adf3a4afe73481aa15cc06110f7e136e59fce082b50083",
+  "resnet_sha256": "8c28bce1adf71c9dbb928e91724832100e67dc6ff68af1a3a79f53cc39833bbf",
+  "split_sha256": "bb27dcf3124b4c3e6afbf94109ec47a1644cd3f44fafe058a1c95b11619f56af",
+  "source": "Original fixed-cohort SMALL initialization used in the manuscript; weights distributed separately.",
+  "role": "Initial teacher only; students start fresh, not from H/8 ep10",
+  "teacher_training_updates": 4360,
+  "teacher_training_batch": 12,
+  "fine_gt": "scoring only; fixed epoch10, no GT checkpoint selection"
+}

@@ -1,0 +1,1492 @@
+[
+  {
+    "release": "experiments/recovery/abc_gate.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/abc_gate.py",
+    "source_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71",
+    "edits": [],
+    "release_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+  },
+  {
+    "release": "experiments/recovery/acceleration/fast_data.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/acceleration/fast_data.py",
+    "source_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e",
+    "edits": [],
+    "release_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+  },
+  {
+    "release": "experiments/recovery/acceleration/run_fast.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/acceleration/run_fast.py",
+    "source_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb",
+    "edits": [],
+    "release_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+  },
+  {
+    "release": "experiments/recovery/anchor_gate.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/anchor_gate.py",
+    "source_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8",
+    "edits": [],
+    "release_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+  },
+  {
+    "release": "experiments/recovery/cfg_standard.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/cfg_standard.py",
+    "source_sha256": "007a2ab736ba1568bcb96636e4ec182e7803a9d7b1233b18c8e4f81afc679531",
+    "edits": [
+      "Repository-relative default root",
+      "Default to the manuscript U-Net student",
+      "Default 200 epochs; configurable round budget",
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "4c9c927d6377a72e6b4dbb612834b2e9ecc12f4a7ce735224cb2f4db875b7a8f"
+  },
+  {
+    "release": "experiments/recovery/cloud_data.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/cloud_data.py",
+    "source_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c",
+    "edits": [],
+    "release_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+  },
+  {
+    "release": "experiments/recovery/cloud_geometry.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/cloud_geometry.py",
+    "source_sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7",
+    "edits": [],
+    "release_sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7"
+  },
+  {
+    "release": "experiments/recovery/cloud_supervision.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/cloud_supervision.py",
+    "source_sha256": "06b3ab44a0a0aeb13d2be5c7de981db4b6875249d9f10589cb412d403d5bb561",
+    "edits": [],
+    "release_sha256": "06b3ab44a0a0aeb13d2be5c7de981db4b6875249d9f10589cb412d403d5bb561"
+  },
+  {
+    "release": "experiments/recovery/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/recovery/geometry.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/geometry.py",
+    "source_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c",
+    "edits": [],
+    "release_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+  },
+  {
+    "release": "experiments/recovery/gray_region_guard.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/gray_region_guard.py",
+    "source_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4",
+    "edits": [],
+    "release_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+  },
+  {
+    "release": "experiments/recovery/initial_anchor.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/initial_anchor.py",
+    "source_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52",
+    "edits": [],
+    "release_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+  },
+  {
+    "release": "experiments/recovery/model_h8.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/model_h8.py",
+    "source_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d",
+    "edits": [],
+    "release_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+  },
+  {
+    "release": "experiments/recovery/model_reference.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/model_reference.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/recovery/model_student.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/model_student.py",
+    "source_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f",
+    "edits": [],
+    "release_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+  },
+  {
+    "release": "experiments/recovery/model_student_unet.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/model_student_unet.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/recovery/reference/assess.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/recovery/reference/model.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/reference/model.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/recovery/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/recovery/repeat_confidence.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/repeat_confidence.py",
+    "source_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff",
+    "edits": [],
+    "release_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+  },
+  {
+    "release": "experiments/recovery/run_all.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/run_all.py",
+    "source_sha256": "9e2b8c6100ddeff9906d51776d6cbacefd4eba0ba03a9110d3006782892e7b0a",
+    "edits": [],
+    "release_sha256": "9e2b8c6100ddeff9906d51776d6cbacefd4eba0ba03a9110d3006782892e7b0a"
+  },
+  {
+    "release": "experiments/recovery/run_pair.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/run_pair.py",
+    "source_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a",
+    "edits": [],
+    "release_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+  },
+  {
+    "release": "experiments/recovery/run_windows.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/run_windows.py",
+    "source_sha256": "02743fc865fce6946cca0c052cfa17863b556377869dcdffda186713e09973bd",
+    "edits": [],
+    "release_sha256": "02743fc865fce6946cca0c052cfa17863b556377869dcdffda186713e09973bd"
+  },
+  {
+    "release": "experiments/recovery/runtime_setup.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/runtime_setup.py",
+    "source_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa",
+    "edits": [],
+    "release_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+  },
+  {
+    "release": "experiments/recovery/state_store.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/state_store.py",
+    "source_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1",
+    "edits": [],
+    "release_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+  },
+  {
+    "release": "experiments/recovery/steger_safe.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/steger_safe.py",
+    "source_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89",
+    "edits": [],
+    "release_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+  },
+  {
+    "release": "experiments/recovery/storage_budget.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/storage_budget.py",
+    "source_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d",
+    "edits": [],
+    "release_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+  },
+  {
+    "release": "experiments/recovery/supervision_hold.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/supervision_hold.py",
+    "source_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42",
+    "edits": [],
+    "release_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+  },
+  {
+    "release": "experiments/recovery/target_rules.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/target_rules.py",
+    "source_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f",
+    "edits": [],
+    "release_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+  },
+  {
+    "release": "experiments/recovery/teacher_protocol.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/teacher_protocol.py",
+    "source_sha256": "31b6595221f4763bb5d0cec19dda182770e5062581d620ea57aa337d3f99824b",
+    "edits": [
+      "Validate fixed attempted-update budget, while retaining measured AMP updates",
+      "Report actual optimizer updates for regenerated teachers"
+    ],
+    "release_sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+  },
+  {
+    "release": "experiments/recovery/weighted_loss.py",
+    "source": "clean/small_model/2026-10-12/abc_fullteacher_students/weighted_loss.py",
+    "source_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246",
+    "edits": [],
+    "release_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+  },
+  {
+    "release": "experiments/s2l/cfg_standard.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/cfg_standard.py",
+    "source_sha256": "78a2381d41f4c982b2c8a598701c2ce38051bac085b703225315f1e296609d6e",
+    "edits": [
+      "Default common 100-epoch comparison budget",
+      "Respect the public data_root setting",
+      "Repository-relative default root",
+      "Update workstation-specific configuration description",
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "576617888de725b33978b1a93b00ad73518dae57a2757b5285e77b06e345b208"
+  },
+  {
+    "release": "experiments/s2l/data.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/data.py",
+    "source_sha256": "08588c7ad01f014fed0b0fbb71faa0f338a3a678f6905d90fdf3ad3fa78a7526",
+    "edits": [],
+    "release_sha256": "08588c7ad01f014fed0b0fbb71faa0f338a3a678f6905d90fdf3ad3fa78a7526"
+  },
+  {
+    "release": "experiments/s2l/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/s2l/model_student.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/model_student.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/s2l/reference/assess.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/s2l/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/s2l/run.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/run.py",
+    "source_sha256": "dafa3d7e0b4d39b1874a17e4d2b6f18da6c277bec7bcf640f0addb8fdd336e43",
+    "edits": [],
+    "release_sha256": "dafa3d7e0b4d39b1874a17e4d2b6f18da6c277bec7bcf640f0addb8fdd336e43"
+  },
+  {
+    "release": "experiments/s2l/run_windows.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/run_windows.py",
+    "source_sha256": "7b40d714bd57cd1d92225b8307d37b9cb72b235206c0709a89c701654cebb05a",
+    "edits": [],
+    "release_sha256": "7b40d714bd57cd1d92225b8307d37b9cb72b235206c0709a89c701654cebb05a"
+  },
+  {
+    "release": "experiments/s2l/runtime_setup.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/runtime_setup.py",
+    "source_sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a",
+    "edits": [],
+    "release_sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a"
+  },
+  {
+    "release": "experiments/s2l/supervision.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/supervision.py",
+    "source_sha256": "b9960542f92a2e53fe4f29541c53c9341839a1a5cdf81cdb83e7a37fc3cdef58",
+    "edits": [],
+    "release_sha256": "b9960542f92a2e53fe4f29541c53c9341839a1a5cdf81cdb83e7a37fc3cdef58"
+  },
+  {
+    "release": "experiments/s2l/utils.py",
+    "source": "clean/small_model/2026-10-10/unet_s2l/utils.py",
+    "source_sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723",
+    "edits": [],
+    "release_sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723"
+  },
+  {
+    "release": "experiments/nnpu/cfg_standard.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/cfg_standard.py",
+    "source_sha256": "d8ed58e8e89aced4b0ee8d6640777a170e31e8d14f87a0a96f7c3dcf1a2a7aae",
+    "edits": [
+      "Default common 100-epoch comparison budget",
+      "Respect the public data_root setting",
+      "Repository-relative default root",
+      "Update workstation-specific configuration description",
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "6b1224dab1ec7d9a7252f2597f960fbf44740db654a1652e7a2d27c80ca88552"
+  },
+  {
+    "release": "experiments/nnpu/data.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/data.py",
+    "source_sha256": "b3f121e549d8abd70d0360959c3b8e778bd09b06aad0758eecc2908c99a7732a",
+    "edits": [],
+    "release_sha256": "b3f121e549d8abd70d0360959c3b8e778bd09b06aad0758eecc2908c99a7732a"
+  },
+  {
+    "release": "experiments/nnpu/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/nnpu/model_student.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/model_student.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/nnpu/prepare_priors.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/prepare_priors.py",
+    "source_sha256": "9321663cd1f4ed5ec5f05f485168c80d0fd030e844d19e311540de387fd4795f",
+    "edits": [],
+    "release_sha256": "9321663cd1f4ed5ec5f05f485168c80d0fd030e844d19e311540de387fd4795f"
+  },
+  {
+    "release": "experiments/nnpu/reference/assess.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/nnpu/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/nnpu/run.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/run.py",
+    "source_sha256": "2ada1b58fdc7cf78aa756a9dbd0aeab4bcd729ca2d0e0b2d1c0ca930246750a9",
+    "edits": [],
+    "release_sha256": "2ada1b58fdc7cf78aa756a9dbd0aeab4bcd729ca2d0e0b2d1c0ca930246750a9"
+  },
+  {
+    "release": "experiments/nnpu/run_windows.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/run_windows.py",
+    "source_sha256": "7b40d714bd57cd1d92225b8307d37b9cb72b235206c0709a89c701654cebb05a",
+    "edits": [],
+    "release_sha256": "7b40d714bd57cd1d92225b8307d37b9cb72b235206c0709a89c701654cebb05a"
+  },
+  {
+    "release": "experiments/nnpu/runtime_setup.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/runtime_setup.py",
+    "source_sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a",
+    "edits": [],
+    "release_sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a"
+  },
+  {
+    "release": "experiments/nnpu/sampling.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/sampling.py",
+    "source_sha256": "8018d5a6a592ea4ea4cbe88e6cba6342280405c002f43537aa0fe6665ae3156e",
+    "edits": [],
+    "release_sha256": "8018d5a6a592ea4ea4cbe88e6cba6342280405c002f43537aa0fe6665ae3156e"
+  },
+  {
+    "release": "experiments/nnpu/supervision.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/supervision.py",
+    "source_sha256": "d3d24d0153101fe31c9674357143d1edb725f933a9866157bf3ea1799c17cdc4",
+    "edits": [],
+    "release_sha256": "d3d24d0153101fe31c9674357143d1edb725f933a9866157bf3ea1799c17cdc4"
+  },
+  {
+    "release": "experiments/nnpu/utils.py",
+    "source": "clean/small_model/2026-10-10/unet_pu/utils.py",
+    "source_sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723",
+    "edits": [],
+    "release_sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723"
+  },
+  {
+    "release": "experiments/s2l_small/cfg_standard.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/cfg_standard.py",
+    "source_sha256": "d7f088f32d75f79477def47507bd865f2a50b71fc8cdbadf17daca34e7d605b4",
+    "edits": [
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "ea3c00c5d2b866344d751ae9803711033006cafd02ea47e51168f77b1b6c8357"
+  },
+  {
+    "release": "experiments/s2l_small/data.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/data.py",
+    "source_sha256": "08588c7ad01f014fed0b0fbb71faa0f338a3a678f6905d90fdf3ad3fa78a7526",
+    "edits": [],
+    "release_sha256": "08588c7ad01f014fed0b0fbb71faa0f338a3a678f6905d90fdf3ad3fa78a7526"
+  },
+  {
+    "release": "experiments/s2l_small/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/s2l_small/model_student.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/model_student.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/s2l_small/reference/assess.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/s2l_small/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/s2l_small/run.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/run.py",
+    "source_sha256": "e158e408749e3d1e56837d978afca75c7623df1b80f26c21a3f47d922dc4ac3e",
+    "edits": [],
+    "release_sha256": "e158e408749e3d1e56837d978afca75c7623df1b80f26c21a3f47d922dc4ac3e"
+  },
+  {
+    "release": "experiments/s2l_small/run_windows.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/run_windows.py",
+    "source_sha256": "3bd5b5edd78025412243b2e2389162efc55b2ba98e171e02ff768119b9a78a4d",
+    "edits": [],
+    "release_sha256": "3bd5b5edd78025412243b2e2389162efc55b2ba98e171e02ff768119b9a78a4d"
+  },
+  {
+    "release": "experiments/s2l_small/runtime_setup.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/runtime_setup.py",
+    "source_sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a",
+    "edits": [],
+    "release_sha256": "d7a3666d14eda29a1acc4de2175843afe8eca84963f4bdd7df1d24f22473454a"
+  },
+  {
+    "release": "experiments/s2l_small/small_prior.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/small_prior.py",
+    "source_sha256": "deed130c653b6b51b54af328f1bab6bed58a0aa90b2edd02a32afe55d814963e",
+    "edits": [
+      "Allow explicitly registered regenerated teachers; keep shape/cohort/budget checks",
+      "Read provenance digests locally",
+      "Check attempted training budget",
+      "Retain measured updates"
+    ],
+    "release_sha256": "3fc724a9ae43d2271a479d06fc29eea61276b15bbb35e2c69e251093127c6f6d"
+  },
+  {
+    "release": "experiments/s2l_small/supervision.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/supervision.py",
+    "source_sha256": "b9960542f92a2e53fe4f29541c53c9341839a1a5cdf81cdb83e7a37fc3cdef58",
+    "edits": [],
+    "release_sha256": "b9960542f92a2e53fe4f29541c53c9341839a1a5cdf81cdb83e7a37fc3cdef58"
+  },
+  {
+    "release": "experiments/s2l_small/teacher_model.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/teacher_model.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/s2l_small/utils.py",
+    "source": "clean/small_model/2026-10-16/unet_s2l_small_prior/utils.py",
+    "source_sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723",
+    "edits": [],
+    "release_sha256": "7f6b57e992e980106f1acd959f8c84d5d5dbf5bd988e4d2ba7c2884f3e2aa723"
+  },
+  {
+    "release": "experiments/probability_lut/abc_gate.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/abc_gate.py",
+    "source_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71",
+    "edits": [],
+    "release_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+  },
+  {
+    "release": "experiments/probability_lut/acceleration/fast_data.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/acceleration/fast_data.py",
+    "source_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e",
+    "edits": [],
+    "release_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+  },
+  {
+    "release": "experiments/probability_lut/acceleration/run_fast.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/acceleration/run_fast.py",
+    "source_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb",
+    "edits": [],
+    "release_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+  },
+  {
+    "release": "experiments/probability_lut/anchor_gate.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/anchor_gate.py",
+    "source_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8",
+    "edits": [],
+    "release_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+  },
+  {
+    "release": "experiments/probability_lut/cfg_standard.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/cfg_standard.py",
+    "source_sha256": "d383ae351d72f2ec7156c434e2062c956f8bfb5aaeb695cb5061b7f32efe8f19",
+    "edits": [
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "e15925c72bd769482d78b5c9f1f00b92ab27af79621b55ec756519a436af0802"
+  },
+  {
+    "release": "experiments/probability_lut/cloud_data.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/cloud_data.py",
+    "source_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c",
+    "edits": [],
+    "release_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+  },
+  {
+    "release": "experiments/probability_lut/cloud_geometry.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/cloud_geometry.py",
+    "source_sha256": "ee8324da1ec2febd8dda3fde0f7434359617bc7ba2e61541f894796105f8275a",
+    "edits": [],
+    "release_sha256": "ee8324da1ec2febd8dda3fde0f7434359617bc7ba2e61541f894796105f8275a"
+  },
+  {
+    "release": "experiments/probability_lut/cloud_supervision.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/cloud_supervision.py",
+    "source_sha256": "7201661b68519cafbc85e961d74f136e8bf91911f963203033309f6318f31d02",
+    "edits": [],
+    "release_sha256": "7201661b68519cafbc85e961d74f136e8bf91911f963203033309f6318f31d02"
+  },
+  {
+    "release": "experiments/probability_lut/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/probability_lut/geometry.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/geometry.py",
+    "source_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c",
+    "edits": [],
+    "release_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+  },
+  {
+    "release": "experiments/probability_lut/gray_region_guard.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/gray_region_guard.py",
+    "source_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4",
+    "edits": [],
+    "release_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+  },
+  {
+    "release": "experiments/probability_lut/initial_anchor.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/initial_anchor.py",
+    "source_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52",
+    "edits": [],
+    "release_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+  },
+  {
+    "release": "experiments/probability_lut/model_h8.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/model_h8.py",
+    "source_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d",
+    "edits": [],
+    "release_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+  },
+  {
+    "release": "experiments/probability_lut/model_reference.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/model_reference.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/probability_lut/model_student.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/model_student.py",
+    "source_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f",
+    "edits": [],
+    "release_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+  },
+  {
+    "release": "experiments/probability_lut/model_student_unet.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/model_student_unet.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/probability_lut/reference/assess.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/probability_lut/reference/model.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/reference/model.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/probability_lut/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/probability_lut/repeat_confidence.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/repeat_confidence.py",
+    "source_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff",
+    "edits": [],
+    "release_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+  },
+  {
+    "release": "experiments/probability_lut/run_all.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/run_all.py",
+    "source_sha256": "293198f4f0f417c72630ee62dbaac7b2dc9bcf4c354c523be6cd3ccd2d547c0b",
+    "edits": [],
+    "release_sha256": "293198f4f0f417c72630ee62dbaac7b2dc9bcf4c354c523be6cd3ccd2d547c0b"
+  },
+  {
+    "release": "experiments/probability_lut/run_pair.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/run_pair.py",
+    "source_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a",
+    "edits": [],
+    "release_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+  },
+  {
+    "release": "experiments/probability_lut/run_windows.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/run_windows.py",
+    "source_sha256": "f8b7a17c4af409775c042bc400c62eefecef5ff2251bc38ab32a96351be083ec",
+    "edits": [],
+    "release_sha256": "f8b7a17c4af409775c042bc400c62eefecef5ff2251bc38ab32a96351be083ec"
+  },
+  {
+    "release": "experiments/probability_lut/runtime_setup.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/runtime_setup.py",
+    "source_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa",
+    "edits": [],
+    "release_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+  },
+  {
+    "release": "experiments/probability_lut/state_store.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/state_store.py",
+    "source_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1",
+    "edits": [],
+    "release_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+  },
+  {
+    "release": "experiments/probability_lut/steger_safe.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/steger_safe.py",
+    "source_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89",
+    "edits": [],
+    "release_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+  },
+  {
+    "release": "experiments/probability_lut/storage_budget.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/storage_budget.py",
+    "source_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d",
+    "edits": [],
+    "release_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+  },
+  {
+    "release": "experiments/probability_lut/supervision_hold.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/supervision_hold.py",
+    "source_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42",
+    "edits": [],
+    "release_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+  },
+  {
+    "release": "experiments/probability_lut/target_rules.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/target_rules.py",
+    "source_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f",
+    "edits": [],
+    "release_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+  },
+  {
+    "release": "experiments/probability_lut/teacher_protocol.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/teacher_protocol.py",
+    "source_sha256": "31b6595221f4763bb5d0cec19dda182770e5062581d620ea57aa337d3f99824b",
+    "edits": [
+      "Validate fixed attempted-update budget, while retaining measured AMP updates",
+      "Report actual optimizer updates for regenerated teachers"
+    ],
+    "release_sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+  },
+  {
+    "release": "experiments/probability_lut/weighted_loss.py",
+    "source": "clean/small_model/2026-10-14/unet_probability_ablation/weighted_loss.py",
+    "source_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246",
+    "edits": [],
+    "release_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+  },
+  {
+    "release": "experiments/structure_nolut/abc_gate.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/abc_gate.py",
+    "source_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71",
+    "edits": [],
+    "release_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+  },
+  {
+    "release": "experiments/structure_nolut/acceleration/fast_data.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/acceleration/fast_data.py",
+    "source_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e",
+    "edits": [],
+    "release_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+  },
+  {
+    "release": "experiments/structure_nolut/acceleration/run_fast.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/acceleration/run_fast.py",
+    "source_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb",
+    "edits": [],
+    "release_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+  },
+  {
+    "release": "experiments/structure_nolut/anchor_gate.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/anchor_gate.py",
+    "source_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8",
+    "edits": [],
+    "release_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+  },
+  {
+    "release": "experiments/structure_nolut/cfg_standard.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/cfg_standard.py",
+    "source_sha256": "9f67d200e94fa3748ab6cff1779f75c0933f913adc7176f4725b05ec37a0d092",
+    "edits": [
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "7f5640de1f05b079bbb3db19738436d21c2cf979c0c6e8d09ca308b3b6a804f1"
+  },
+  {
+    "release": "experiments/structure_nolut/cloud_data.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/cloud_data.py",
+    "source_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c",
+    "edits": [],
+    "release_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+  },
+  {
+    "release": "experiments/structure_nolut/cloud_geometry.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/cloud_geometry.py",
+    "source_sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7",
+    "edits": [],
+    "release_sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7"
+  },
+  {
+    "release": "experiments/structure_nolut/cloud_supervision.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/cloud_supervision.py",
+    "source_sha256": "395b2f6dfbb510b1f1b41fa6bbe55c7cc3e781d1eeb2ac41d26df7493af2d785",
+    "edits": [],
+    "release_sha256": "395b2f6dfbb510b1f1b41fa6bbe55c7cc3e781d1eeb2ac41d26df7493af2d785"
+  },
+  {
+    "release": "experiments/structure_nolut/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/structure_nolut/geometry.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/geometry.py",
+    "source_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c",
+    "edits": [],
+    "release_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+  },
+  {
+    "release": "experiments/structure_nolut/gray_region_guard.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/gray_region_guard.py",
+    "source_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4",
+    "edits": [],
+    "release_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+  },
+  {
+    "release": "experiments/structure_nolut/initial_anchor.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/initial_anchor.py",
+    "source_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52",
+    "edits": [],
+    "release_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+  },
+  {
+    "release": "experiments/structure_nolut/model_h8.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/model_h8.py",
+    "source_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d",
+    "edits": [],
+    "release_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+  },
+  {
+    "release": "experiments/structure_nolut/model_reference.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/model_reference.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/structure_nolut/model_student.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/model_student.py",
+    "source_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f",
+    "edits": [],
+    "release_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+  },
+  {
+    "release": "experiments/structure_nolut/model_student_unet.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/model_student_unet.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/structure_nolut/reference/assess.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/structure_nolut/reference/model.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/reference/model.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/structure_nolut/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/structure_nolut/repeat_confidence.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/repeat_confidence.py",
+    "source_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff",
+    "edits": [],
+    "release_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+  },
+  {
+    "release": "experiments/structure_nolut/run_all.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/run_all.py",
+    "source_sha256": "d72ff9009f9c9502e61865dabd71eb5d51b1a7d7669ddf4e71f504667c2641aa",
+    "edits": [],
+    "release_sha256": "d72ff9009f9c9502e61865dabd71eb5d51b1a7d7669ddf4e71f504667c2641aa"
+  },
+  {
+    "release": "experiments/structure_nolut/run_pair.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/run_pair.py",
+    "source_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a",
+    "edits": [],
+    "release_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+  },
+  {
+    "release": "experiments/structure_nolut/run_windows.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/run_windows.py",
+    "source_sha256": "76317038793c94f6ef2c5a9c94d8d592ed7a6ebad2b55df1aec4e5eb8f9b410b",
+    "edits": [],
+    "release_sha256": "76317038793c94f6ef2c5a9c94d8d592ed7a6ebad2b55df1aec4e5eb8f9b410b"
+  },
+  {
+    "release": "experiments/structure_nolut/runtime_setup.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/runtime_setup.py",
+    "source_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa",
+    "edits": [],
+    "release_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+  },
+  {
+    "release": "experiments/structure_nolut/state_store.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/state_store.py",
+    "source_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1",
+    "edits": [],
+    "release_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+  },
+  {
+    "release": "experiments/structure_nolut/steger_safe.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/steger_safe.py",
+    "source_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89",
+    "edits": [],
+    "release_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+  },
+  {
+    "release": "experiments/structure_nolut/storage_budget.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/storage_budget.py",
+    "source_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d",
+    "edits": [],
+    "release_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+  },
+  {
+    "release": "experiments/structure_nolut/supervision_hold.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/supervision_hold.py",
+    "source_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42",
+    "edits": [],
+    "release_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+  },
+  {
+    "release": "experiments/structure_nolut/target_rules.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/target_rules.py",
+    "source_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f",
+    "edits": [],
+    "release_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+  },
+  {
+    "release": "experiments/structure_nolut/teacher_protocol.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/teacher_protocol.py",
+    "source_sha256": "31b6595221f4763bb5d0cec19dda182770e5062581d620ea57aa337d3f99824b",
+    "edits": [
+      "Validate fixed attempted-update budget, while retaining measured AMP updates",
+      "Report actual optimizer updates for regenerated teachers"
+    ],
+    "release_sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+  },
+  {
+    "release": "experiments/structure_nolut/weighted_loss.py",
+    "source": "clean/small_model/2026-10-14/unet_abc_lut_ablation/weighted_loss.py",
+    "source_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246",
+    "edits": [],
+    "release_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+  },
+  {
+    "release": "experiments/probability_nolut/abc_gate.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/abc_gate.py",
+    "source_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71",
+    "edits": [],
+    "release_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+  },
+  {
+    "release": "experiments/probability_nolut/acceleration/fast_data.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/acceleration/fast_data.py",
+    "source_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e",
+    "edits": [],
+    "release_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+  },
+  {
+    "release": "experiments/probability_nolut/acceleration/run_fast.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/acceleration/run_fast.py",
+    "source_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb",
+    "edits": [],
+    "release_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+  },
+  {
+    "release": "experiments/probability_nolut/anchor_gate.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/anchor_gate.py",
+    "source_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8",
+    "edits": [],
+    "release_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+  },
+  {
+    "release": "experiments/probability_nolut/cfg_standard.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/cfg_standard.py",
+    "source_sha256": "e254d9674b46441d50b2f20ad16f44a142257c38782cc974ccdbe8fcc420c649",
+    "edits": [
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "65ac52cc31e3068022f3dbf4ce7481a510e8b17567f13969250afd68b7a3bab0"
+  },
+  {
+    "release": "experiments/probability_nolut/cloud_data.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/cloud_data.py",
+    "source_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c",
+    "edits": [],
+    "release_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+  },
+  {
+    "release": "experiments/probability_nolut/cloud_geometry.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/cloud_geometry.py",
+    "source_sha256": "ee8324da1ec2febd8dda3fde0f7434359617bc7ba2e61541f894796105f8275a",
+    "edits": [],
+    "release_sha256": "ee8324da1ec2febd8dda3fde0f7434359617bc7ba2e61541f894796105f8275a"
+  },
+  {
+    "release": "experiments/probability_nolut/cloud_supervision.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/cloud_supervision.py",
+    "source_sha256": "21f70af3ce397ec72cb588c69649e74208b8fe48bbba1a5003be4407d08c60b8",
+    "edits": [],
+    "release_sha256": "21f70af3ce397ec72cb588c69649e74208b8fe48bbba1a5003be4407d08c60b8"
+  },
+  {
+    "release": "experiments/probability_nolut/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/probability_nolut/geometry.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/geometry.py",
+    "source_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c",
+    "edits": [],
+    "release_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+  },
+  {
+    "release": "experiments/probability_nolut/gray_region_guard.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/gray_region_guard.py",
+    "source_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4",
+    "edits": [],
+    "release_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+  },
+  {
+    "release": "experiments/probability_nolut/initial_anchor.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/initial_anchor.py",
+    "source_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52",
+    "edits": [],
+    "release_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+  },
+  {
+    "release": "experiments/probability_nolut/model_h8.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/model_h8.py",
+    "source_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d",
+    "edits": [],
+    "release_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+  },
+  {
+    "release": "experiments/probability_nolut/model_reference.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/model_reference.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/probability_nolut/model_student.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/model_student.py",
+    "source_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f",
+    "edits": [],
+    "release_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+  },
+  {
+    "release": "experiments/probability_nolut/model_student_unet.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/model_student_unet.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/probability_nolut/reference/assess.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/probability_nolut/reference/model.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/reference/model.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/probability_nolut/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/probability_nolut/repeat_confidence.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/repeat_confidence.py",
+    "source_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff",
+    "edits": [],
+    "release_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+  },
+  {
+    "release": "experiments/probability_nolut/run_all.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/run_all.py",
+    "source_sha256": "293198f4f0f417c72630ee62dbaac7b2dc9bcf4c354c523be6cd3ccd2d547c0b",
+    "edits": [],
+    "release_sha256": "293198f4f0f417c72630ee62dbaac7b2dc9bcf4c354c523be6cd3ccd2d547c0b"
+  },
+  {
+    "release": "experiments/probability_nolut/run_pair.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/run_pair.py",
+    "source_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a",
+    "edits": [],
+    "release_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+  },
+  {
+    "release": "experiments/probability_nolut/run_windows.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/run_windows.py",
+    "source_sha256": "e55fc084235196e2022d3a0498576d047e0d08aeec18509aa81d22cce5b7adce",
+    "edits": [],
+    "release_sha256": "e55fc084235196e2022d3a0498576d047e0d08aeec18509aa81d22cce5b7adce"
+  },
+  {
+    "release": "experiments/probability_nolut/runtime_setup.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/runtime_setup.py",
+    "source_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa",
+    "edits": [],
+    "release_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+  },
+  {
+    "release": "experiments/probability_nolut/state_store.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/state_store.py",
+    "source_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1",
+    "edits": [],
+    "release_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+  },
+  {
+    "release": "experiments/probability_nolut/steger_safe.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/steger_safe.py",
+    "source_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89",
+    "edits": [],
+    "release_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+  },
+  {
+    "release": "experiments/probability_nolut/storage_budget.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/storage_budget.py",
+    "source_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d",
+    "edits": [],
+    "release_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+  },
+  {
+    "release": "experiments/probability_nolut/supervision_hold.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/supervision_hold.py",
+    "source_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42",
+    "edits": [],
+    "release_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+  },
+  {
+    "release": "experiments/probability_nolut/target_rules.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/target_rules.py",
+    "source_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f",
+    "edits": [],
+    "release_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+  },
+  {
+    "release": "experiments/probability_nolut/teacher_protocol.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/teacher_protocol.py",
+    "source_sha256": "31b6595221f4763bb5d0cec19dda182770e5062581d620ea57aa337d3f99824b",
+    "edits": [
+      "Validate fixed attempted-update budget, while retaining measured AMP updates",
+      "Report actual optimizer updates for regenerated teachers"
+    ],
+    "release_sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+  },
+  {
+    "release": "experiments/probability_nolut/weighted_loss.py",
+    "source": "clean/small_model/2026-10-20/unet_probability_nolut/weighted_loss.py",
+    "source_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246",
+    "edits": [],
+    "release_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+  },
+  {
+    "release": "experiments/reference_student/abc_gate.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/abc_gate.py",
+    "source_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71",
+    "edits": [],
+    "release_sha256": "563eb101cf740f2dc4b0d4b089841109d7e9c1bd5568604f03bcaa6f29b8eb71"
+  },
+  {
+    "release": "experiments/reference_student/acceleration/fast_data.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/acceleration/fast_data.py",
+    "source_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e",
+    "edits": [],
+    "release_sha256": "d3a01b0737d834c16e89cecc97bd7746064e01c1e36af1200d9122a413cd3c4e"
+  },
+  {
+    "release": "experiments/reference_student/acceleration/run_fast.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/acceleration/run_fast.py",
+    "source_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb",
+    "edits": [],
+    "release_sha256": "38896e8ac063f0169be76f5341e5319c29c469ee0bd50632399fe253fe67c1bb"
+  },
+  {
+    "release": "experiments/reference_student/anchor_gate.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/anchor_gate.py",
+    "source_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8",
+    "edits": [],
+    "release_sha256": "099cef435005e115592c9dc70b10630ea11023c296c06afe1e3a08d01d205ef8"
+  },
+  {
+    "release": "experiments/reference_student/cfg_standard.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/cfg_standard.py",
+    "source_sha256": "585331e6f3925c85b61a07c25d0dc0e3fffc203acfe719bad47cf770061260e7",
+    "edits": [
+      "Configurable loader worker count"
+    ],
+    "release_sha256": "e12aae9177b8984c02bbf92d458959841eb79f14387c2fd9d88f934522aefce2"
+  },
+  {
+    "release": "experiments/reference_student/cloud_data.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/cloud_data.py",
+    "source_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c",
+    "edits": [],
+    "release_sha256": "101ebc8a99a874566026d13395edc9c1063b2e1b3dd2f64490790e26430a102c"
+  },
+  {
+    "release": "experiments/reference_student/cloud_geometry.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/cloud_geometry.py",
+    "source_sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7",
+    "edits": [],
+    "release_sha256": "4b6d127057e5ece8a0a56f4394c624a5e7f3bcdbf25eb385e212e3dd45804cf7"
+  },
+  {
+    "release": "experiments/reference_student/cloud_supervision.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/cloud_supervision.py",
+    "source_sha256": "395b2f6dfbb510b1f1b41fa6bbe55c7cc3e781d1eeb2ac41d26df7493af2d785",
+    "edits": [],
+    "release_sha256": "395b2f6dfbb510b1f1b41fa6bbe55c7cc3e781d1eeb2ac41d26df7493af2d785"
+  },
+  {
+    "release": "experiments/reference_student/dataset_protocol.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/dataset_protocol.py",
+    "source_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328",
+    "edits": [],
+    "release_sha256": "954908d6dcac6de36aabdb75829ae8a3db8b4d67e13b4f418b332762bdd63328"
+  },
+  {
+    "release": "experiments/reference_student/geometry.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/geometry.py",
+    "source_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c",
+    "edits": [],
+    "release_sha256": "31e41a865253e45fcc6e85df22b0c02329b454daaa07eff3b04d433c5edeb73c"
+  },
+  {
+    "release": "experiments/reference_student/gray_region_guard.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/gray_region_guard.py",
+    "source_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4",
+    "edits": [],
+    "release_sha256": "bd5d62ed532617ebcced98aa3d26b3eb496d8d1b42ca6475ecb7c290be17f7a4"
+  },
+  {
+    "release": "experiments/reference_student/initial_anchor.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/initial_anchor.py",
+    "source_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52",
+    "edits": [],
+    "release_sha256": "19f61642d5b5a7db6dc83e57c85d834b91a977bc70f140f4899f0d282ca4de52"
+  },
+  {
+    "release": "experiments/reference_student/model_h8.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/model_h8.py",
+    "source_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d",
+    "edits": [],
+    "release_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+  },
+  {
+    "release": "experiments/reference_student/model_reference.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/model_reference.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/reference_student/model_student.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/model_student.py",
+    "source_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f",
+    "edits": [],
+    "release_sha256": "140f604fba293db01ffe5cc48483b4c1c177b424bab27997a107699a77c2c25f"
+  },
+  {
+    "release": "experiments/reference_student/model_student_unet.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/model_student_unet.py",
+    "source_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc",
+    "edits": [],
+    "release_sha256": "28d939505abd7da9237c30ca012e5a75a8eb5c890961f7d4d39a19dd4c32d3fc"
+  },
+  {
+    "release": "experiments/reference_student/reference/assess.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/reference/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/reference_student/reference/model.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/reference/model.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/reference_student/reference/model_unet.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/reference/model_unet.py",
+    "source_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9",
+    "edits": [],
+    "release_sha256": "806cffee96fd678b906dcf3c5708dbba82b03b26cbb13af8ac5e79d36929ece9"
+  },
+  {
+    "release": "experiments/reference_student/reference_bootstrap.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/reference_bootstrap.py",
+    "source_sha256": "9d2c21abdaff5e27ef753a6efb42a7cba9ca1554829e0748ac3b48ba411bbb30",
+    "edits": [],
+    "release_sha256": "9d2c21abdaff5e27ef753a6efb42a7cba9ca1554829e0748ac3b48ba411bbb30"
+  },
+  {
+    "release": "experiments/reference_student/repeat_confidence.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/repeat_confidence.py",
+    "source_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff",
+    "edits": [],
+    "release_sha256": "f6a10c308d03879195d6444cad11adcfa9323ece35976f5699b9eba28dfcffff"
+  },
+  {
+    "release": "experiments/reference_student/run_all.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/run_all.py",
+    "source_sha256": "18021cb2ee6a59009ec0a41173bd0928949993909434901bb04ee97bea5060a4",
+    "edits": [],
+    "release_sha256": "18021cb2ee6a59009ec0a41173bd0928949993909434901bb04ee97bea5060a4"
+  },
+  {
+    "release": "experiments/reference_student/run_pair.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/run_pair.py",
+    "source_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a",
+    "edits": [],
+    "release_sha256": "e20800a2b2710adfc135ee6c4fc75d3dfd9fe33d4e192b8a2f92560375a2f18a"
+  },
+  {
+    "release": "experiments/reference_student/run_windows.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/run_windows.py",
+    "source_sha256": "c48b765536c0f8475071c5d3ec58a7b93b4bafe20f1e2ad90b78f4a02bfc7a47",
+    "edits": [],
+    "release_sha256": "c48b765536c0f8475071c5d3ec58a7b93b4bafe20f1e2ad90b78f4a02bfc7a47"
+  },
+  {
+    "release": "experiments/reference_student/runtime_setup.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/runtime_setup.py",
+    "source_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa",
+    "edits": [],
+    "release_sha256": "909fe597886b586d9e97e0d84c774bbab62d076302e110554635158b0c39a0aa"
+  },
+  {
+    "release": "experiments/reference_student/state_store.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/state_store.py",
+    "source_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1",
+    "edits": [],
+    "release_sha256": "67f970b1e2417f18e66d46a346bbd5fe083c6554afc35252f667d46da5d610d1"
+  },
+  {
+    "release": "experiments/reference_student/steger_safe.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/steger_safe.py",
+    "source_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89",
+    "edits": [],
+    "release_sha256": "3ec48bb9f128d3a640d59ab08c95481da3e9481431bc485e0cc3333e28bcfc89"
+  },
+  {
+    "release": "experiments/reference_student/storage_budget.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/storage_budget.py",
+    "source_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d",
+    "edits": [],
+    "release_sha256": "6e2d796fa53c5c038923cf856e64897ca8beb653f376085b7760ed112d57441d"
+  },
+  {
+    "release": "experiments/reference_student/supervision_hold.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/supervision_hold.py",
+    "source_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42",
+    "edits": [],
+    "release_sha256": "da42e77aad92209bfd875e2aa1252a9cd6f960837128aa1f0bd592974540ad42"
+  },
+  {
+    "release": "experiments/reference_student/target_rules.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/target_rules.py",
+    "source_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f",
+    "edits": [],
+    "release_sha256": "06a8b8cb5f173b19f1606e1b36fb1abe0aeab2ea0eb135f1833dacd972a9036f"
+  },
+  {
+    "release": "experiments/reference_student/teacher_protocol.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/teacher_protocol.py",
+    "source_sha256": "31b6595221f4763bb5d0cec19dda182770e5062581d620ea57aa337d3f99824b",
+    "edits": [
+      "Validate fixed attempted-update budget, while retaining measured AMP updates",
+      "Report actual optimizer updates for regenerated teachers"
+    ],
+    "release_sha256": "a97b2052083877d9583ccdb467ad5e3b7f8e1d639f3169372559d15c3876b744"
+  },
+  {
+    "release": "experiments/reference_student/weighted_loss.py",
+    "source": "clean/small_model/2026-10-16/unet_r1_reference/weighted_loss.py",
+    "source_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246",
+    "edits": [],
+    "release_sha256": "c02284240df97c9ae57b2d1e5c43839f4d43b8534687f74d2d4a9da01e540246"
+  },
+  {
+    "release": "experiments/initialize_small/run_pair.py",
+    "source": "clean/small_model/2026-10-12/small_gtpbd_full_h2_ablation/run_pair.py",
+    "source_sha256": "15b30a2972303ea2612b53d5a14912ae111a2761d43f8f8104c84a4e67828615",
+    "edits": [
+      "Preserve original training and loss kernels",
+      "Portable initialization input paths; omit obsolete teacher dependency",
+      "Portable initialization input paths; omit obsolete teacher dependency",
+      "Portable initialization input paths; omit obsolete teacher dependency",
+      "Portable initialization input paths; omit obsolete teacher dependency",
+      "Portable initialization input paths; omit obsolete teacher dependency",
+      "Use released cohort/probe metadata rather than a historical configuration import",
+      "Run only the manuscript initializer, omitting development-only comparison orchestration"
+    ],
+    "release_sha256": "f0794fd515b0394eb3b3059a96995b0295d94f637287671b6b1298a31827c08f"
+  },
+  {
+    "release": "experiments/initialize_small/model_reference.py",
+    "source": "clean/small_model/2026-10-12/small_gtpbd_full_h2_ablation/model_reference.py",
+    "source_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558",
+    "edits": [],
+    "release_sha256": "e6c99e24a606aa2550dc6126f82939e3261095c3ada25b5cfb08d454f3af9558"
+  },
+  {
+    "release": "experiments/initialize_small/assess.py",
+    "source": "clean/small_model/2026-10-12/small_gtpbd_full_h2_ablation/assess.py",
+    "source_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8",
+    "edits": [],
+    "release_sha256": "ada4288e68d98bb0fdd672e4ff8a36c6fef7315e08dc1db09be76a911d6274c8"
+  },
+  {
+    "release": "experiments/initialize_small/run_h8.py",
+    "source": "clean/small_model/2026-10-12/small_gtpbd_full_h2_ablation/run_h8.py",
+    "source_sha256": "b5fff1b8f11effe963d2cf0608e2830816666dbca6f8ee29189f08715e6b5503",
+    "edits": [],
+    "release_sha256": "b5fff1b8f11effe963d2cf0608e2830816666dbca6f8ee29189f08715e6b5503"
+  },
+  {
+    "release": "experiments/initialize_small/model_h8.py",
+    "source": "clean/small_model/2026-10-12/small_gtpbd_full_h2_ablation/model_h8.py",
+    "source_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d",
+    "edits": [],
+    "release_sha256": "d951495767190e061051e435e0118e6ab89e441dcaa1efbeda15a7a9bf7b204d"
+  },
+  {
+    "release": "downstream/run_all.py",
+    "source": "clean/small_model/2026-10-13/downstream_parcel_3in1/run_all.py",
+    "source_sha256": "f649882fd7669659eec8cfc7a6a47bff7809aaef8192293dad40d305d73cec8d",
+    "edits": [],
+    "release_sha256": "f649882fd7669659eec8cfc7a6a47bff7809aaef8192293dad40d305d73cec8d"
+  },
+  {
+    "release": "downstream/smoke_test.py",
+    "source": "clean/small_model/2026-10-13/downstream_parcel_3in1/smoke_test.py",
+    "source_sha256": "23d23285a77afddf73a701e0852d7078ab1b8be7a2ce5ef85887ef537cff9450",
+    "edits": [
+      "Read optional pretrained path override for the portable smoke fixture",
+      "Use the shared release spatial split",
+      "Resolve encoder weights from the portable configuration"
+    ],
+    "release_sha256": "44d27ab592f194f123d1d7022584ff66fa696a240ff5b0027bfb69ac112f7c18"
+  },
+  {
+    "release": "meta/splits_full5227.json",
+    "source": "transfer/abc_fullteacher_students_windows/meta/splits_full5227.json",
+    "source_sha256": "bb27dcf3124b4c3e6afbf94109ec47a1644cd3f44fafe058a1c95b11619f56af",
+    "edits": [],
+    "release_sha256": "bb27dcf3124b4c3e6afbf94109ec47a1644cd3f44fafe058a1c95b11619f56af"
+  },
+  {
+    "release": "meta/splits_v4_sd.json",
+    "source": "clean/small_model/2026-10-13/downstream_parcel_3in1/meta/splits_v4_sd.json",
+    "source_sha256": "9ed4ada6444bb50730767d0fb20951fd8d325c92d49b06d29229b23caa315f00",
+    "edits": [],
+    "release_sha256": "9ed4ada6444bb50730767d0fb20951fd8d325c92d49b06d29229b23caa315f00"
+  },
+  {
+    "release": "meta/paper_teacher_manifest.json",
+    "source": "transfer/abc_fullteacher_students_windows/meta/small_full5227_h4_manifest.json",
+    "source_sha256": "9fc6dc4a4e8e41f145adf3a4afe73481aa15cc06110f7e136e59fce082b50083",
+    "edits": [],
+    "release_sha256": "9fc6dc4a4e8e41f145adf3a4afe73481aa15cc06110f7e136e59fce082b50083"
+  },
+  {
+    "release": "meta/paper_teacher_provenance.json",
+    "source": "transfer/abc_fullteacher_students_windows/meta/full_teacher_provenance.json",
+    "source_sha256": "0cfe5689ae4068e661abaf8a1b73f47f42b6738b404abf683afcb70f13c223da",
+    "edits": [
+      "Replace private workstation location with a description"
+    ],
+    "release_sha256": "20d7bd78b3263e06a06828df78784f7703727fcd27515a8e8b3d60b7ce760a8a"
+  }
+]
